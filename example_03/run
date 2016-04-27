@@ -19,3 +19,9 @@ puts require 'thor'
 #require 'bundler'
 #require 'powder'
 #puts $LOAD_PATH
+
+# FIVE - Inspect our Gem paths
+#puts Gem.path
+
+# SIX - Find the path of our thor library
+#`open #{Gem.path.last}`
