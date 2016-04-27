@@ -1,0 +1,17 @@
+#!/usr/bin/env ruby
+
+############################################
+# Example 06 - Active Support Dependencies #
+############################################
+
+require 'active_support/dependencies'
+
+ActiveSupport::Dependencies.autoload_paths.push(__dir__)
+
+# ONE - OMG MAGIC, LOOK, IMPLICITLY JUST WORKS
+puts User.new('Mario', []).name
+puts User::Permission.new('Admin').name
+
+# TWO - Get a list of loaded files and constants
+#User::Permission
+#puts "Loaded: #{ActiveSupport::Dependencies.autoloaded_constants}"
