@@ -1,4 +1,5 @@
-require 'functions' # fails because we cannot find functions
+# ONE
+require 'functions' # fails because we functions isn't in the load path (ruby 1.9.3 and later)
 
 # TWO
 # Find out what we have in our load path
