@@ -1,0 +1,21 @@
+#!/usr/bin/env ruby
+
+######################################
+# Example 04 - Bundler & $LOAD_PATH  #
+######################################
+
+abort("Please change to example_04 first") unless __dir__ == Dir.pwd
+
+# See Gemfile before beginning
+
+# ONE - Setup bundler paths only (don't execute gem file)
+require 'bundler'
+Bundler.setup
+
+puts $LOAD_PATH
+
+# TWO - Bundle require
+#require 'bundler'
+#Bundler.require
+
+#puts $LOAD_PATH

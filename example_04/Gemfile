@@ -1,0 +1,3 @@
+source 'http://rubygems.org'
+
+gem 'powder', require: 'a-file-that-does-not-exist'
