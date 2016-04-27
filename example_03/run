@@ -9,6 +9,13 @@
 puts require 'thor'
 
 # TWO - Look for at our load paths
-#puts $LOAD_PATH.each { |path| File.exist?("#{path}/thor") }
+#puts $LOAD_PATH.any? { |path| File.exist?("#{path}/thor") }
 
-# THREE - Look at our load paths
+# THREE - Look at our load paths after require
+#require 'thor'
+#puts $LOAD_PATH
+
+# FOUR - load some more
+#require 'bundler'
+#require 'powder'
+#puts $LOAD_PATH
