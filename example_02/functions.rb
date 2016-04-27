@@ -1,5 +1,5 @@
-def run
-  puts 'running program'
+def add_7(num)
+  num + 7
 end
 
-puts "functions added"
+puts "functions ready"

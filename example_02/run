@@ -4,7 +4,7 @@
 # Example 02 - ruby $LOAD_PATH #
 ################################
 
-# See functions.rb before running
+# NOTE: See functions.rb before running
 
 # ONE - Fails because functions isn't in the load path (ruby 1.9.3 and later)
 require 'functions'
