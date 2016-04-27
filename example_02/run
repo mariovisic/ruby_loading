@@ -4,6 +4,7 @@
 # Example 02 - ruby $LOAD_PATH #
 ################################
 
+# See functions.rb before running
 
 # ONE - Fails because functions isn't in the load path (ruby 1.9.3 and later)
 require 'functions'
@@ -13,11 +14,15 @@ require 'functions'
 
 # THREE - Works if we are in the example_01 folder (1.9.2 and older behavior)
 #$LOAD_PATH.push('.')
-#puts require 'functions'
+#require 'functions'
 
 # FOUR - Add the directory of the current file to be executable from anywhere
 #$LOAD_PATH.push(__dir__)
-#puts require 'functions'
+#require 'functions'
 
-# FIVE - Require the relative location of the file (OK if file does not move)
-#puts require_relative 'functions'
+# FIVE - Require the relative location from this file (OK if file does not move)
+#require_relative 'functions'
+
+# SIX - use load to run multiple times
+#$LOAD_PATH.push(__dir__)
+#3.times { load 'functions.rb' }
