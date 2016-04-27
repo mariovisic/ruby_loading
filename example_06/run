@@ -8,7 +8,7 @@ require 'active_support/dependencies'
 
 ActiveSupport::Dependencies.autoload_paths.push(__dir__)
 
-# ONE - OMG MAGIC, LOOK, IMPLICITLY JUST WORKS
+# ONE - OMG MAGIC, LOOK, JUST WORKS™
 puts User.new('Mario', []).name
 puts User::Permission.new('Admin').name
 
