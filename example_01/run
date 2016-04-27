@@ -9,11 +9,11 @@
 # TWO
 
 # Add our directory to the end of the PATH
-# PATH=$PATH:"/Users/mario/Dropbox/Documents/Talks/Ruby Loading/example_01/bin"
+#PATH=$PATH:/Users/mario/Work/ruby_loading/example_01/bin
 
 # THREE
 # Add our directory to the start of the PATH
-# PATH="/Users/mario/Dropbox/Documents/Talks/Ruby Loading/example_01/bin":${PATH}
+#PATH=/Users/mario/Work/ruby_loading/example_01/bin:${PATH}
 
 echo "PATH: ${PATH}"
 echo "testing: $(which testing)"
