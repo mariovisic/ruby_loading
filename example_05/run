@@ -1,0 +1,18 @@
+#!/usr/bin/env ruby
+
+######################################
+# Example 05 - ruby Autoloading      #
+######################################
+
+# NOTE See user.rb and user_permission.rb
+
+$LOAD_PATH.push(__dir__) # Use this directory for require
+
+# ONE - Kernel#autoload (lazy load for performance)
+autoload :User, 'user'
+puts User.new('Mario', []).name
+
+# TWO - Module#autoload (lazy load namespaced constants)
+#autoload :User, 'user'
+#User.autoload(:Permission, 'user_permission')
+#puts User::Permission.new('Admin').name
