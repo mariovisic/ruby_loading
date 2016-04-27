@@ -3,9 +3,9 @@
 ## Outine:
 - $PATH in unix (example_01)
 - $LOAD_PATH (example_02)
-  - ruby MRI 1.9.2 removes '.' from load path
-  - Bundler adds gems to paths
+- Ruby gems and paths (example_03)
 
+  - Bundler adds gems to paths
 - load
 - require
 - require_relative

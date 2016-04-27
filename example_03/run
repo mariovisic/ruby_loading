@@ -1,0 +1,14 @@
+#!/usr/bin/env ruby
+
+######################################
+# Example 03 - rubygems & $LOAD_PATH #
+######################################
+
+
+# ONE - load thor rubygem (why does this work, it's NOT in our path)
+puts require 'thor'
+
+# TWO - Look for at our load paths
+#puts $LOAD_PATH.each { |path| File.exist?("#{path}/thor") }
+
+# THREE - Look at our load paths

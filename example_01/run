@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
 
+################################
+#     Example 01 - $PATH       #
+################################
+
 # NOTE: we have `testing` and `git` binaries in the bin folder
 
 # ONE
