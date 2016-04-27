@@ -6,4 +6,4 @@
 - $GEM_PATH (example_03)
 - Bundler (example_04)
 - Kernel#autoload + Module.autoload (example_05)
-- #autoload + Module.autoload (example_06)
+- Rails autoloading (ActiveSupport::Dependencies), AKA: Just Works™ (example_06)
