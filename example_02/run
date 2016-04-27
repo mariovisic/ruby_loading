@@ -16,8 +16,7 @@ require 'functions'
 #puts require 'functions'
 
 # FOUR - Add our specific directry to the load path
-#directory = File.dirname(__FILE__)
-#$LOAD_PATH.push(directory)
+#$LOAD_PATH.push(__dir__)
 #puts require 'functions'
 
 # FIVE - Require the relative location of the file (OK if file does not move)
